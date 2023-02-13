@@ -26,7 +26,7 @@ class MobileScannerWebPlugin {
     );
     final MobileScannerWebPlugin instance = MobileScannerWebPlugin();
 
-    injectJSLibraries(barCodeReader.jsLibraries);
+    // injectJSLibraries(barCodeReader.jsLibraries);
 
     channel.setMethodCallHandler(instance.handleMethodCall);
     event.setController(instance.controller);
